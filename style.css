@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(90, 5, 100),rgb(35, 90, 140));
+}
+
+.keyboard {
+    background-color: dimgray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 440px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    padding: 15px;
+    padding-top: 5px;
+    box-shadow: 10px 10px 5px #000;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+section div {
+    font-size: 1em;
+    margin: 5px;
+    border: solid 1px #000;
+    border-radius: 5px;
+    background-image: linear-gradient(to top left, dimgray 60%,#f0f0f0);
+    width: 60px;
+    height: 60px;
+}
+
+section div a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    letter-spacing: 1px;
+    font-weight: 800;
+    margin: 2px 5px 5px 2px;
+    padding: 10px;
+    padding-bottom: 25px;
+    background-image: linear-gradient(to top left,#f0f0f0, dimgray 70%);
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px dimgray;
+}
+
+section div a:hover {
+    margin: 0;
+    padding: 15px;
+    padding-bottom: 27px;
+    box-shadow: 1px 1px 1px #000;
+}
+
+.key {
+    height: 40px;
+    width: 55px;
+}
+.key a {
+    font-size: 10px;
+    padding: 8px 20px 14px 8px;
+}
+
+.key a:hover {
+    padding: 12px;
+    padding-bottom: 17px;
+}
+.page {
+    height: 40px;
+    width: 55px;
+}
+.page a{
+    font-size: 10px;
+    padding: 5px;
+    padding-left: 10px;
+}
+.page a:hover {
+    padding: 10px 5px 8px 15px;
+}
+
+.control {
+    width: 70px;
+    height: 40px;
+}
+.control a {
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+.control a:hover {
+    padding-bottom: 14px;
+}
+
+#backSpace {
+    width: 110px;
+}
+#tab {
+    width: 100px;
+}
+#capsLock {
+    width: 115px;
+}
+#shift1 {
+    width: 80px;
+}
+#shift2 {
+    width: 150px;
+}
+#ctrl1 {
+    width: 80px;
+}
+#space {
+    width: 360px;
+}
+#altGr {
+    font-size: 12px;
+}
+#altGr a {
+    padding-bottom: 28px;
+}
+#altGr a:hover {
+    padding-bottom: 30px;
+}
+#up {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#end1 {
+    margin-right: 85px;
+}
+#end2 {
+    margin-right: 75px;
+}
+#left {
+    transform: translate(832px, -25px);
+}
+#down {
+    transform: translate(912px, -72px);
+}
+#right {
+    transform: translate(990px, -120px);
+}
+#enter {
+    width: 60px;
+    height: 130px;
+    margin: 0;
+    transform: translate(1005px, -428px);
+}
+#enter a {
+    padding-bottom: 95px;
+    padding-left: 5px;
+}
+#enter a:hover {
+    padding: 16px 1px 96px 9px;
+}
+#winlogo a{
+    font-size: 2em;
+    padding: 7px 1px 8px 12px;
+}
+#winlogo a:hover {
+    padding: 12px 1px 11px 15px;
+}
