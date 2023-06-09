@@ -1,2 +1,2 @@
 # KeyboardWithCSS
-building a Keyboard using HTML and CSS Only.
+Building a Keyboard using HTML and CSS Only.
