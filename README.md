@@ -1,4 +1,4 @@
 # KeyboardWithCSS
-Building a Keyboard using HTML and CSS Only (For fun).
+Build a keyboard using only HTML and CSS (for fun).
 
 https://aessakou.github.io/KeyBoard/
